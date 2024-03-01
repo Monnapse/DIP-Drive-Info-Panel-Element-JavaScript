@@ -1,6 +1,8 @@
 # Drive-Info-Panel-Element-JavaScript
 Create a simple info panel for your drive
 
+![screenshot](https://github.com/Monnapse/Drive-Info-Panel-Element-JavaScript/blob/main/preview.png?raw=true)
+
 Example :
 ```
 var dip = DriveInfoPanel();
@@ -13,4 +15,3 @@ dip.render();
 dip.Panel.style.zIndex = 999;
 document.body.insertBefore(dip.Panel, document.body.firstChild);
 ```
-![screenshot](https://github.com/Monnapse/Drive-Info-Panel-Element-JavaScript/blob/main/preview.png?raw=true)
