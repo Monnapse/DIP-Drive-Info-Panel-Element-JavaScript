@@ -261,7 +261,7 @@ function DriveInfoPanel() {
                 } else {
                     categoryProgress.style.marginLeft = "-8px";
                 }
-                categoryProgress.style.zIndex = index-categories.length
+                categoryProgress.style.zIndex = index;
                 index--;
                 progressBar.appendChild(categoryProgress);
             }
@@ -325,14 +325,3 @@ function bytesToSize(bytes) {
     }
     return bytes.toFixed(1) + " B";
 }
-
-//var dip = DriveInfoPanel();
-//dip.SetDriveSize(107374182400);
-////dip.SetDriveUsed(80530636800);
-//dip.addCategory("Videos", "cloud-info-color-Videos", 53387071200, 31);
-//dip.addCategory("Images", "cloud-info-color-Images", 16146127360, 4358);
-//dip.addFreeSpaceCategory("Free Space", "drive-info-categor-color-default");
-//dip.sortCategories(-1);
-//dip.render();
-//dip.Panel.style.zIndex = 999;
-//document.body.insertBefore(dip.Panel, document.body.firstChild);
