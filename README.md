@@ -13,3 +13,6 @@ dip.render();
 dip.Panel.style.zIndex = 999;
 document.body.insertBefore(dip.Panel, document.body.firstChild);
 ```
+
+A Screenshot :
+[![screenshot]([https://github.com/monnapse/Drive-Info-Panel-Element-JavaScript/blob/[branch]/image.jpg](https://github.com/Monnapse/Drive-Info-Panel-Element-JavaScript/blob/main/preview.png)?raw=true)](https://github.com/Monnapse/Drive-Info-Panel-Element-JavaScript/blob/main/preview.png)
