@@ -1,4 +1,4 @@
-# Drive-Info-Panel-Element-JavaScript
+# DIP - Drive-Info-Panel-Element-JavaScript
 Create a simple info panel for your drive
 
 ![screenshot](https://github.com/Monnapse/Drive-Info-Panel-Element-JavaScript/blob/main/preview.png?raw=true)
